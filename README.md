@@ -4,8 +4,6 @@ A robotics simulation project exploring autonomous navigation, path planning, lo
 
 This project began as an attempt to better understand how autonomous robots navigate through environments while avoiding obstacles. What started as a simple implementation of Artificial Potential Fields gradually evolved into a larger robotics simulation platform used to explore concepts such as path planning, sensor modeling, localization, mapping, and autonomous decision-making.
 
-![Simulator Screenshot](docs/images/main_simulation.png)
-
 ---
 
 ## Why I Built It
@@ -47,8 +45,6 @@ The concept is simple:
 * The robot follows the resulting vector field.
 
 This allows navigation to emerge from relatively simple mathematical rules while producing surprisingly complex behavior.
-
-![Vector Field Visualization](docs/images/vector_field.png)
 
 ---
 
@@ -92,8 +88,6 @@ Different algorithms excel under different conditions.
 Potential fields are computationally simple and intuitive, while methods such as A* often produce more reliable paths.
 
 Exploring these tradeoffs became a major focus of the project.
-
-![Comparison Screenshot](docs/images/comparison.png)
 
 ---
 

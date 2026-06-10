@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #0b0f17;
+  color: #e2e8f0;
+  font-family: ui-sans-serif, system-ui, 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
+
+input[type='range'] {
+  height: 1px;
+  background: #1e293b;
+}
+
